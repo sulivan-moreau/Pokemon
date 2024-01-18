@@ -4,7 +4,7 @@ from PIL import Image
 from pokemon import Pokemon
 from Starter import *
 from Capacité import Capacite
-from fenetre import *
+
 
 def redimensionner_image(image_path, nouvelle_taille):
     img = Image.open(image_path)

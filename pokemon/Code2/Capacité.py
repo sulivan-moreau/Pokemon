@@ -42,13 +42,72 @@ class Capacite:
                 print(f"L'attaque de {adversaire.nom} baisse de {pourcentage_baisse}%.")
 
     def utiliser(self, attaquant, adversaire):
+
+    # Statistiques des attaquants et défenseurs
+        att_stat = attaquant.statistiques.attaque
+        att_speciale_stat = attaquant.statistiques.attaque_speciale
+        def_stat = adversaire.statistiques.defense
+        def_speciale_stat = adversaire.statistiques.defense_speciale
+
+        # Choix de la statistique d'attaque en fonction de la classe de la capacité
+        if self.classe_capacite == "Physique":
+            attaque_utilisee = att_stat
+            defense_utilisee = def_stat
+        else:
+            attaque_utilisee = att_speciale_stat
+            defense_utilisee = def_speciale_stat
+
+        # Calcul des dégâts de base
+        degats = int(
+            ((2 * attaquant.statistiques.niveau / 5 + 2) *
+            self.puissance * (attaque_utilisee / defense_utilisee)) / 50 + 2
+        )
+
+    # Prendre en compte l'efficacité du type
+        type_attaque = self.type_capacite.lower()
+        type_defenseur = adversaire.type.lower()
+
+        # Vérifier si le type d'attaque existe dans le dictionnaire
+        if type_attaque in types_pokemon:
+            # Récupérer l'efficacité du type
+            efficacite = types_pokemon[type_attaque].relations.get(type_defenseur, 1.0)
+        else:
+            # Si le type d'attaque n'est pas trouvé, considérer l'efficacité comme 1 (neutre)
+            efficacite = 1.0
+
+        degats *= efficacite
+
+            # Prendre en compte l'efficacité du type
+        type_attaque = self.type_capacite.lower()
+        type_adversaire = adversaire.type.lower()
+        efficacite = types_pokemon[type_attaque.lower()].relations[type_defenseur.lower()]
+
+        degats *= efficacite
+        
         # Détermination si l'attaque est physique ou spéciale
         if self.classe_capacite == "Physique":
             att_attaquant = attaquant.statistiques.attaque
             def_adversaire = adversaire.statistiques.defense
-        else:
+        if self.classe_capacite == "Speciale":
             att_attaquant = attaquant.statistiques.attaque_speciale
             def_adversaire = adversaire.statistiques.defense_speciale
+
+        if self.nom == "Rugissement":
+            # Altération des statistiques de l'adversaire
+            adversaire.statistiques.baisser_statistiques_aleatoires()
+            return 0  # Cette capacité n'inflige pas de dégâts
+
+        elif self.nom == "Mimi Queue":
+            # Altération des statistiques de l'adversaire
+            adversaire.statistiques.baisser_statistiques_aleatoires()
+            return 0  # Cette capacité n'inflige pas de dégâts
+
+        # Calcul des dégâts en fonction des statistiques, puissance, efficacité du type, etc.
+        degats = self.calculer_degats(attaquant, adversaire)
+
+        # Appliquer les dégâts au Pokémon défenseur
+        adversaire.infliger_degats(degats)
+            
 
         # Coup critique
         coup_critique = 2 if random.randint(1, 100) <= 10 else 1  # 10% de chance de coup critique
@@ -61,6 +120,7 @@ class Capacite:
 
         # Type de l'attaque par rapport aux types du défenseur
         type1_multiplier = types_pokemon[self.type_capacite.lower()].relations.get(adversaire.type[0].lower(), 1.0)
+        type2_multiplier = 1.0
 
         if len(adversaire.type) == 2:
             type2_multiplier = types_pokemon[self.type_capacite.lower()].relations.get(adversaire.type[1].lower(), 1.0)
@@ -93,6 +153,9 @@ class Capacite:
         self.evaluer_efficacite(adversaire)
 
         return degats, self.effet_statistique
+    
+
+    
 
 # Exemple d'instanciation d'une capacité
 Charge = Capacite("Charge", 40, 100, 35, "Normal", "Physique")

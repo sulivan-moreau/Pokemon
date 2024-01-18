@@ -35,4 +35,9 @@ class Statistiques:
 
         return degats
 
+    def baisser_statistiques_aleatoires(self):
+        # Baisse aléatoire des statistiques de 5% à 15%
+        for attribut in ["attaque", "defense", "attaque_speciale", "defense_speciale", "vitesse"]:
+            baisse = random.uniform(0.05, 0.15)  # Baisse aléatoire entre 5% et 15%
+            setattr(self, attribut, max(1, int(getattr(self, attribut) * (1 - baisse))))
 

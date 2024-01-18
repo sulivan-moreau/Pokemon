@@ -53,7 +53,6 @@ class Pokemon:
         adversaire.statistiques.points_de_vie -= degats
 
         # Imprimer les informations sur l'action
-        print(f"{self.nom} utilise {capacite_choisie.nom} et inflige {degats} dégâts à {adversaire.nom}")
         print(f"Type Capacité: {capacite_choisie.type_capacite}")
         print(f"Type Adversaire: {adversaire.type}")
 
@@ -71,3 +70,6 @@ class Pokemon:
             self.statistiques.defense -= int(self.statistiques.defense * (pourcentage_modification / 100))
         # Ajoutez d'autres cas selon les statistiques que vous souhaitez modifier
             
+    def infliger_degats(self, degats):
+        # Appliquer les dégâts au Pokémon
+        self.statistiques.points_de_vie = max(0, self.statistiques.points_de_vie - degats)

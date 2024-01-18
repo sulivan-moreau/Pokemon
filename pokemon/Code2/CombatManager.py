@@ -5,7 +5,6 @@ import time
 from GameManager import GameManager
 from fenetre import *
 
-
 class CombatManager:
     def __init__(self, pokemon_joueur, pokemon_adversaire):
         self.pokemon_joueur = pokemon_joueur
@@ -120,18 +119,23 @@ class CombatManager:
             if 0 <= indice < len(self.pokemon_joueur.capacites):
                 self.attaque_selectionnee = indice
 
+    def determiner_ordre_attaque(self):
+        # Détermine l'ordre d'attaque en fonction de la vitesse
+        if self.pokemon_joueur.statistiques.vitesse > self.pokemon_adversaire.statistiques.vitesse:
+            return self.pokemon_joueur, self.pokemon_adversaire
+        else:
+            return self.pokemon_adversaire, self.pokemon_joueur
+
     def combat(self):
         while self.pokemon_joueur.statistiques.points_de_vie > 0 and self.pokemon_adversaire.statistiques.points_de_vie > 0:
-            # Afficher les informations sur le combat
+            attaquant, defenseur = self.determiner_ordre_attaque()
             print(f"{self.pokemon_joueur.nom} - PV: {self.pokemon_joueur.statistiques.points_de_vie}")
             print(f"{self.pokemon_adversaire.nom} - PV: {self.pokemon_adversaire.statistiques.points_de_vie}")
 
             # Attaque du joueur
             if self.attaque_selectionnee is not None:
-                capacite_joueur = self.pokemon_joueur.choisir_capacite()
-                capacite_adversaire = self.pokemon_adversaire.choisir_capacite()
-                degats_joueur, effet_statistique_joueur = capacite_joueur.utiliser(self.pokemon_joueur, self.pokemon_adversaire)
-                degats_adversaire, effet_statistique_adversaire = capacite_adversaire.utiliser(self.pokemon_adversaire, self.pokemon_joueur)
+                capacite_joueur = self.pokemon_joueur.capacites[self.attaque_selectionnee]
+                degats_joueur = capacite_joueur.utiliser(self.pokemon_joueur, self.pokemon_adversaire)
                 print(f"{self.pokemon_joueur.nom} utilise {capacite_joueur.nom} et inflige {degats_joueur} dégâts.")
                 time.sleep(1)
 
