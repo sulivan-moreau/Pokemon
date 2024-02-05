@@ -1,0 +1,5461 @@
+{
+    "Bulbizarre": {
+        "Numéro": [
+            "1"
+        ],
+        "PV": [
+            "45"
+        ],
+        "Attaque": [
+            "49"
+        ],
+        "Défense": [
+            "49"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [
+            "Herbizarre"
+        ],
+        "Niveau": [
+            "16"
+        ],
+        "Img": [
+            "img/001.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Herbizarre": {
+        "Numéro": [
+            "2"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "62"
+        ],
+        "Défense": [
+            "63"
+        ],
+        "Attaque Spéciale": [
+            "80"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [
+            "Florizarre"
+        ],
+        "Niveau": [
+            "32"
+        ],
+        "Img": [
+            "img/002.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Florizarre": {
+        "Numéro": [
+            "3"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "82"
+        ],
+        "Défense": [
+            "83"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/003.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Salamèche": {
+        "Numéro": [
+            "4"
+        ],
+        "PV": [
+            "39"
+        ],
+        "Attaque": [
+            "52"
+        ],
+        "Défense": [
+            "43"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "65"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [
+            "Reptincel"
+        ],
+        "Niveau": [
+            "16"
+        ],
+        "Img": [
+            "img/004.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Reptincel": {
+        "Numéro": [
+            "5"
+        ],
+        "PV": [
+            "58"
+        ],
+        "Attaque": [
+            "64"
+        ],
+        "Défense": [
+            "58"
+        ],
+        "Attaque Spéciale": [
+            "80"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [
+            "Dracaufeu"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/005.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Dracaufeu": {
+        "Numéro": [
+            "6"
+        ],
+        "PV": [
+            "78"
+        ],
+        "Attaque": [
+            "84"
+        ],
+        "Défense": [
+            "78"
+        ],
+        "Attaque Spéciale": [
+            "109"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Feu ",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/006.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Carapuce": {
+        "Numéro": [
+            "7"
+        ],
+        "PV": [
+            "44"
+        ],
+        "Attaque": [
+            "48"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "64"
+        ],
+        "Vitesse": [
+            "43"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Carabaffe"
+        ],
+        "Niveau": [
+            "16"
+        ],
+        "Img": [
+            "img/007.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Carabaffe": {
+        "Numéro": [
+            "8"
+        ],
+        "PV": [
+            "59"
+        ],
+        "Attaque": [
+            "63"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "58"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Tortank"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/008.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tortank": {
+        "Numéro": [
+            "9"
+        ],
+        "PV": [
+            "79"
+        ],
+        "Attaque": [
+            "83"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "105"
+        ],
+        "Vitesse": [
+            "78"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/009.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Chenipan": {
+        "Numéro": [
+            "10"
+        ],
+        "PV": [
+            "45"
+        ],
+        "Attaque": [
+            "30"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "20"
+        ],
+        "Défense Spéciale": [
+            "20"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Insecte"
+        ],
+        "Evolution": [
+            "Chrysacier"
+        ],
+        "Niveau": [
+            "7"
+        ],
+        "Img": [
+            "img/010.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Chrysacier": {
+        "Numéro": [
+            "11"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "20"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "25"
+        ],
+        "Défense Spéciale": [
+            "25"
+        ],
+        "Vitesse": [
+            "30"
+        ],
+        "Types": [
+            "Insecte"
+        ],
+        "Evolution": [
+            "Papilusion"
+        ],
+        "Niveau": [
+            "10"
+        ],
+        "Img": [
+            "img/011.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Papilusion": {
+        "Numéro": [
+            "12"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "90"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Insecte",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/012.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Aspicot": {
+        "Numéro": [
+            "13"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "35"
+        ],
+        "Défense": [
+            "30"
+        ],
+        "Attaque Spéciale": [
+            "20"
+        ],
+        "Défense Spéciale": [
+            "20"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Insecte",
+            "Poison"
+        ],
+        "Evolution": [
+            "Coconfort"
+        ],
+        "Niveau": [
+            "7"
+        ],
+        "Img": [
+            "img/013.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Coconfort": {
+        "Numéro": [
+            "14"
+        ],
+        "PV": [
+            "45"
+        ],
+        "Attaque": [
+            "25"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "25"
+        ],
+        "Défense Spéciale": [
+            "25"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Insecte",
+            "Poison"
+        ],
+        "Evolution": [
+            "Dardargnan"
+        ],
+        "Niveau": [
+            "10"
+        ],
+        "Img": [
+            "img/014.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Dardargnan": {
+        "Numéro": [
+            "15"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "40"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "75"
+        ],
+        "Types": [
+            "Insecte",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/015.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Roucool": {
+        "Numéro": [
+            "16"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "40"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "35"
+        ],
+        "Vitesse": [
+            "56"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [
+            "Roucoups"
+        ],
+        "Niveau": [
+            "18"
+        ],
+        "Img": [
+            "img/016.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Roucoups": {
+        "Numéro": [
+            "17"
+        ],
+        "PV": [
+            "63"
+        ],
+        "Attaque": [
+            "60"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "71"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [
+            "Roucarnage"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/017.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Roucarnage": {
+        "Numéro": [
+            "18"
+        ],
+        "PV": [
+            "83"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "75"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "101"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/018.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rattata": {
+        "Numéro": [
+            "19"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "56"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "25"
+        ],
+        "Défense Spéciale": [
+            "35"
+        ],
+        "Vitesse": [
+            "72"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [
+            "Rattatac"
+        ],
+        "Niveau": [
+            "20"
+        ],
+        "Img": [
+            "img/019.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rattatac": {
+        "Numéro": [
+            "20"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "81"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "97"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/020.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Piafabec": {
+        "Numéro": [
+            "21"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "60"
+        ],
+        "Défense": [
+            "30"
+        ],
+        "Attaque Spéciale": [
+            "31"
+        ],
+        "Défense Spéciale": [
+            "31"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [
+            "Rapasdepic"
+        ],
+        "Niveau": [
+            "20"
+        ],
+        "Img": [
+            "img/021.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rapasdepic": {
+        "Numéro": [
+            "22"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "61"
+        ],
+        "Défense Spéciale": [
+            "61"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/022.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Abo": {
+        "Numéro": [
+            "23"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "60"
+        ],
+        "Défense": [
+            "44"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "54"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [
+            "Arbok"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/023.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Arbok": {
+        "Numéro": [
+            "24"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "69"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "79"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/024.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Pikachu": {
+        "Numéro": [
+            "25"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "55"
+        ],
+        "Défense": [
+            "40"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Electrick"
+        ],
+        "Evolution": [
+            "Raichu"
+        ],
+        "Niveau": [
+            "25"
+        ],
+        "Img": [
+            "img/025.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Raichu": {
+        "Numéro": [
+            "26"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "90"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "110"
+        ],
+        "Types": [
+            "Electrick "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/026.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Sabelette": {
+        "Numéro": [
+            "27"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "75"
+        ],
+        "Défense": [
+            "85"
+        ],
+        "Attaque Spéciale": [
+            "20"
+        ],
+        "Défense Spéciale": [
+            "30"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Sol"
+        ],
+        "Evolution": [
+            "Sablaireau"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/027.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Sablaireau": {
+        "Numéro": [
+            "28"
+        ],
+        "PV": [
+            "75"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "110"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "65"
+        ],
+        "Types": [
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/028.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nidoran_": {
+        "Numéro": [
+            "32"
+        ],
+        "PV": [
+            "46"
+        ],
+        "Attaque": [
+            "57"
+        ],
+        "Défense": [
+            "40"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "40"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [
+            "Nidorino"
+        ],
+        "Niveau": [
+            "16"
+        ],
+        "Img": [
+            "img/032.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nidorina": {
+        "Numéro": [
+            "30"
+        ],
+        "PV": [
+            "70"
+        ],
+        "Attaque": [
+            "62"
+        ],
+        "Défense": [
+            "67"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "56"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [
+            "Nidoqueen"
+        ],
+        "Niveau": [
+            "32"
+        ],
+        "Img": [
+            "img/030.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nidoqueen": {
+        "Numéro": [
+            "31"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "92"
+        ],
+        "Défense": [
+            "87"
+        ],
+        "Attaque Spéciale": [
+            "75"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "76"
+        ],
+        "Types": [
+            "Poison",
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/031.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nidorino": {
+        "Numéro": [
+            "33"
+        ],
+        "PV": [
+            "61"
+        ],
+        "Attaque": [
+            "72"
+        ],
+        "Défense": [
+            "57"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "65"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [
+            "Nidoking"
+        ],
+        "Niveau": [
+            "32"
+        ],
+        "Img": [
+            "img/033.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nidoking": {
+        "Numéro": [
+            "34"
+        ],
+        "PV": [
+            "81"
+        ],
+        "Attaque": [
+            "102"
+        ],
+        "Défense": [
+            "77"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "85"
+        ],
+        "Types": [
+            "Poison",
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/034.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mélofée": {
+        "Numéro": [
+            "35"
+        ],
+        "PV": [
+            "70"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "48"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Fée"
+        ],
+        "Evolution": [
+            "Mélodelfe"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/035.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mélodelfe": {
+        "Numéro": [
+            "36"
+        ],
+        "PV": [
+            "95"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "73"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "90"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Fée"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/036.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Goupix": {
+        "Numéro": [
+            "37"
+        ],
+        "PV": [
+            "38"
+        ],
+        "Attaque": [
+            "41"
+        ],
+        "Défense": [
+            "40"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "65"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [
+            "Feunard"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/037.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Feunard": {
+        "Numéro": [
+            "38"
+        ],
+        "PV": [
+            "73"
+        ],
+        "Attaque": [
+            "76"
+        ],
+        "Défense": [
+            "75"
+        ],
+        "Attaque Spéciale": [
+            "81"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/038.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rondoudou": {
+        "Numéro": [
+            "39"
+        ],
+        "PV": [
+            "115"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "20"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "25"
+        ],
+        "Vitesse": [
+            "20"
+        ],
+        "Types": [
+            "Normal",
+            "Fée"
+        ],
+        "Evolution": [
+            "Grodoudou"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/039.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Grodoudou": {
+        "Numéro": [
+            "40"
+        ],
+        "PV": [
+            "140"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Normal",
+            "Fée"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/040.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nosferapti": {
+        "Numéro": [
+            "41"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "30"
+        ],
+        "Défense Spéciale": [
+            "40"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Poison ",
+            "Vol"
+        ],
+        "Evolution": [
+            "Nosferalto"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/041.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Nosferalto": {
+        "Numéro": [
+            "42"
+        ],
+        "PV": [
+            "75"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Poison ",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/042.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mystherbe": {
+        "Numéro": [
+            "43"
+        ],
+        "PV": [
+            "45"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "75"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "30"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [
+            "Ortide"
+        ],
+        "Niveau": [
+            "21"
+        ],
+        "Img": [
+            "img/043.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ortide": {
+        "Numéro": [
+            "44"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [
+            "Rafflesia"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/044.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rafflesia": {
+        "Numéro": [
+            "45"
+        ],
+        "PV": [
+            "75"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "85"
+        ],
+        "Attaque Spéciale": [
+            "110"
+        ],
+        "Défense Spéciale": [
+            "90"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/045.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Paras": {
+        "Numéro": [
+            "46"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "25"
+        ],
+        "Types": [
+            "Insecte ",
+            "Plante"
+        ],
+        "Evolution": [
+            "Parasect"
+        ],
+        "Niveau": [
+            "24"
+        ],
+        "Img": [
+            "img/046.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Parasect": {
+        "Numéro": [
+            "47"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "30"
+        ],
+        "Types": [
+            "Insecte",
+            "Plante"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/047.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mimitoss": {
+        "Numéro": [
+            "48"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "55"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Insecte",
+            "Poison"
+        ],
+        "Evolution": [
+            "Aéromite"
+        ],
+        "Niveau": [
+            "31"
+        ],
+        "Img": [
+            "img/048.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Aéromite": {
+        "Numéro": [
+            "49"
+        ],
+        "PV": [
+            "70"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "90"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Insecte",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/049.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Taupiqueur": {
+        "Numéro": [
+            "50"
+        ],
+        "PV": [
+            "10"
+        ],
+        "Attaque": [
+            "55"
+        ],
+        "Défense": [
+            "25"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "95"
+        ],
+        "Types": [
+            "Sol"
+        ],
+        "Evolution": [
+            "Triopikeur"
+        ],
+        "Niveau": [
+            "26"
+        ],
+        "Img": [
+            "img/050.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Triopikeur": {
+        "Numéro": [
+            "51"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "120"
+        ],
+        "Types": [
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/051.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Miaouss": {
+        "Numéro": [
+            "52"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "40"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Normal "
+        ],
+        "Evolution": [
+            "Persian"
+        ],
+        "Niveau": [
+            "28"
+        ],
+        "Img": [
+            "img/052.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Persian": {
+        "Numéro": [
+            "53"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "115"
+        ],
+        "Types": [
+            "Normal "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/053.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Psykokwak": {
+        "Numéro": [
+            "54"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "52"
+        ],
+        "Défense": [
+            "48"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Akwakwak"
+        ],
+        "Niveau": [
+            "33"
+        ],
+        "Img": [
+            "img/054.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Akwakwak": {
+        "Numéro": [
+            "55"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "82"
+        ],
+        "Défense": [
+            "78"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "85"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/055.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Férosinge": {
+        "Numéro": [
+            "56"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [
+            "Colossinge"
+        ],
+        "Niveau": [
+            "28"
+        ],
+        "Img": [
+            "img/056.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Colossinge": {
+        "Numéro": [
+            "57"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "105"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "95"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/057.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Caninos": {
+        "Numéro": [
+            "58"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [
+            "Arcanin"
+        ],
+        "Niveau": [
+            "22"
+        ],
+        "Img": [
+            "img/058.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Arcanin": {
+        "Numéro": [
+            "59"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "110"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "95"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/059.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ptitard": {
+        "Numéro": [
+            "60"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "40"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "40"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Tétarte"
+        ],
+        "Niveau": [
+            "25"
+        ],
+        "Img": [
+            "img/060.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tétarte": {
+        "Numéro": [
+            "61"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Tartard"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/061.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tartard": {
+        "Numéro": [
+            "62"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "90"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Eau",
+            "Combat"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/062.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Abra": {
+        "Numéro": [
+            "63"
+        ],
+        "PV": [
+            "25"
+        ],
+        "Attaque": [
+            "20"
+        ],
+        "Défense": [
+            "15"
+        ],
+        "Attaque Spéciale": [
+            "105"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [
+            "Kadabra"
+        ],
+        "Niveau": [
+            "16"
+        ],
+        "Img": [
+            "img/063.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Kadabra": {
+        "Numéro": [
+            "64"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "35"
+        ],
+        "Défense": [
+            "30"
+        ],
+        "Attaque Spéciale": [
+            "120"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "105"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [
+            "Alakazam"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/064.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Alakazam": {
+        "Numéro": [
+            "65"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "135"
+        ],
+        "Défense Spéciale": [
+            "95"
+        ],
+        "Vitesse": [
+            "120"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/065.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Machoc": {
+        "Numéro": [
+            "66"
+        ],
+        "PV": [
+            "70"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "35"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [
+            "Machopeur"
+        ],
+        "Niveau": [
+            "28"
+        ],
+        "Img": [
+            "img/066.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Machopeur": {
+        "Numéro": [
+            "67"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "60"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [
+            "Mackogneur"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/067.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mackogneur": {
+        "Numéro": [
+            "68"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "130"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/068.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Chétiflor": {
+        "Numéro": [
+            "69"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "75"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "30"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [
+            "Boustiflor"
+        ],
+        "Niveau": [
+            "21"
+        ],
+        "Img": [
+            "img/069.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Boustiflor": {
+        "Numéro": [
+            "70"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [
+            "Empiflor"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/070.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Empiflor": {
+        "Numéro": [
+            "71"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "105"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Plante",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/071.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tentacool": {
+        "Numéro": [
+            "72"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "40"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Eau",
+            "Poison"
+        ],
+        "Evolution": [
+            "Tentacruel"
+        ],
+        "Niveau": [
+            "30"
+        ],
+        "Img": [
+            "img/072.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tentacruel": {
+        "Numéro": [
+            "73"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "80"
+        ],
+        "Défense Spéciale": [
+            "120"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Eau",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/073.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Racaillou": {
+        "Numéro": [
+            "74"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "30"
+        ],
+        "Défense Spéciale": [
+            "30"
+        ],
+        "Vitesse": [
+            "20"
+        ],
+        "Types": [
+            "Roche",
+            "Sol"
+        ],
+        "Evolution": [
+            "Gravalanch"
+        ],
+        "Niveau": [
+            "25"
+        ],
+        "Img": [
+            "img/074.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Gravalanch": {
+        "Numéro": [
+            "75"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "115"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Roche",
+            "Sol"
+        ],
+        "Evolution": [
+            "Grolem"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/075.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Grolem": {
+        "Numéro": [
+            "76"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "120"
+        ],
+        "Défense": [
+            "130"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Roche",
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/076.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ponyta": {
+        "Numéro": [
+            "77"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "85"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [
+            "Galopa"
+        ],
+        "Niveau": [
+            "40"
+        ],
+        "Img": [
+            "img/077.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Galopa": {
+        "Numéro": [
+            "78"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "80"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "105"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/078.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ramoloss": {
+        "Numéro": [
+            "79"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "40"
+        ],
+        "Vitesse": [
+            "15"
+        ],
+        "Types": [
+            "Eau",
+            "Psy"
+        ],
+        "Evolution": [
+            "Flagadoss"
+        ],
+        "Niveau": [
+            "37"
+        ],
+        "Img": [
+            "img/079.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Flagadoss": {
+        "Numéro": [
+            "80"
+        ],
+        "PV": [
+            "95"
+        ],
+        "Attaque": [
+            "75"
+        ],
+        "Défense": [
+            "110"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "30"
+        ],
+        "Types": [
+            "Eau",
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/080.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Magnéti": {
+        "Numéro": [
+            ""
+        ],
+        "PV": [
+            "25"
+        ],
+        "Attaque": [
+            "35"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Electrick",
+            "Acier"
+        ],
+        "Evolution": [
+            "Magnéton"
+        ],
+        "Niveau": [
+            "30"
+        ],
+        "Img": [
+            "img/000.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Magnéton": {
+        "Numéro": [
+            "82"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "60"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "120"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Electrick",
+            "Acier"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/082.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Canarticho": {
+        "Numéro": [
+            "83"
+        ],
+        "PV": [
+            "52"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "58"
+        ],
+        "Défense Spéciale": [
+            "62"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/083.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Doduo": {
+        "Numéro": [
+            "84"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "85"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "35"
+        ],
+        "Vitesse": [
+            "75"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [
+            "Dodrio"
+        ],
+        "Niveau": [
+            "31"
+        ],
+        "Img": [
+            "img/084.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Dodrio": {
+        "Numéro": [
+            "85"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "110"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "60"
+        ],
+        "Vitesse": [
+            "110"
+        ],
+        "Types": [
+            "Normal",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/085.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Otaria": {
+        "Numéro": [
+            "86"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Lamantine"
+        ],
+        "Niveau": [
+            "34"
+        ],
+        "Img": [
+            "img/086.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Lamantine": {
+        "Numéro": [
+            "87"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "70"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "95"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Eau",
+            "Glace"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/087.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tadmorv": {
+        "Numéro": [
+            "88"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "25"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [
+            "Grotadmorv"
+        ],
+        "Niveau": [
+            "38"
+        ],
+        "Img": [
+            "img/088.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Grotadmorv": {
+        "Numéro": [
+            "89"
+        ],
+        "PV": [
+            "105"
+        ],
+        "Attaque": [
+            "105"
+        ],
+        "Défense": [
+            "75"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/089.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Kokiyas": {
+        "Numéro": [
+            "90"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "25"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Crustabri"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/090.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Crustabri": {
+        "Numéro": [
+            "91"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "180"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Eau",
+            "Glace"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/091.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Fantominus": {
+        "Numéro": [
+            "92"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "35"
+        ],
+        "Défense": [
+            "30"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "35"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Spectre",
+            "Poison"
+        ],
+        "Evolution": [
+            "Spectrum"
+        ],
+        "Niveau": [
+            "25"
+        ],
+        "Img": [
+            "img/092.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Spectrum": {
+        "Numéro": [
+            "93"
+        ],
+        "PV": [
+            "45"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "115"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "95"
+        ],
+        "Types": [
+            "Spectre",
+            "Poison"
+        ],
+        "Evolution": [
+            "Ectoplasma"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/093.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ectoplasma": {
+        "Numéro": [
+            "94"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "130"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "110"
+        ],
+        "Types": [
+            "Spectre",
+            "Poison"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/094.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Onix": {
+        "Numéro": [
+            "95"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "160"
+        ],
+        "Attaque Spéciale": [
+            "30"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Roche",
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/095.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Soporifik": {
+        "Numéro": [
+            "96"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "48"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "43"
+        ],
+        "Défense Spéciale": [
+            "90"
+        ],
+        "Vitesse": [
+            "42"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [
+            "Hypnomade"
+        ],
+        "Niveau": [
+            "26"
+        ],
+        "Img": [
+            "img/096.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Hypnomade": {
+        "Numéro": [
+            "97"
+        ],
+        "PV": [
+            "85"
+        ],
+        "Attaque": [
+            "73"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "73"
+        ],
+        "Défense Spéciale": [
+            "115"
+        ],
+        "Vitesse": [
+            "67"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/097.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Krabby": {
+        "Numéro": [
+            "98"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "105"
+        ],
+        "Défense": [
+            "90"
+        ],
+        "Attaque Spéciale": [
+            "25"
+        ],
+        "Défense Spéciale": [
+            "25"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Krabboss"
+        ],
+        "Niveau": [
+            "28"
+        ],
+        "Img": [
+            "img/098.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Krabboss": {
+        "Numéro": [
+            "99"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "130"
+        ],
+        "Défense": [
+            "115"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "75"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/099.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Voltorbe": {
+        "Numéro": [
+            "100"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "30"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Electrick"
+        ],
+        "Evolution": [
+            "Electrode"
+        ],
+        "Niveau": [
+            "30"
+        ],
+        "Img": [
+            "img/100.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Electrode": {
+        "Numéro": [
+            "101"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "80"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "150"
+        ],
+        "Types": [
+            "Electrick"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/101.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Noeunoeuf": {
+        "Numéro": [
+            "102"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "40"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Plante",
+            "Psy"
+        ],
+        "Evolution": [
+            "Noadkoko"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/102.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Noadkoko": {
+        "Numéro": [
+            "103"
+        ],
+        "PV": [
+            "95"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "85"
+        ],
+        "Attaque Spéciale": [
+            "125"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Plante",
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/103.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Osselait": {
+        "Numéro": [
+            "104"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Sol"
+        ],
+        "Evolution": [
+            "Ossatueur"
+        ],
+        "Niveau": [
+            "28"
+        ],
+        "Img": [
+            "img/104.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ossatueur": {
+        "Numéro": [
+            "105"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "110"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "45"
+        ],
+        "Types": [
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [
+            "10"
+        ],
+        "Img": [
+            "img/105.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Kicklee": {
+        "Numéro": [
+            "106"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "120"
+        ],
+        "Défense": [
+            "53"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "110"
+        ],
+        "Vitesse": [
+            "87"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [
+            "Tygnon"
+        ],
+        "Niveau": [
+            "15"
+        ],
+        "Img": [
+            "img/106.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tygnon": {
+        "Numéro": [
+            "107"
+        ],
+        "PV": [
+            "50"
+        ],
+        "Attaque": [
+            "105"
+        ],
+        "Défense": [
+            "79"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "110"
+        ],
+        "Vitesse": [
+            "76"
+        ],
+        "Types": [
+            "Combat"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/107.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Excelangue": {
+        "Numéro": [
+            "108"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "55"
+        ],
+        "Défense": [
+            "75"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "30"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/108.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Smogo": {
+        "Numéro": [
+            "109"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Poison"
+        ],
+        "Evolution": [
+            "Smogogo"
+        ],
+        "Niveau": [
+            "35"
+        ],
+        "Img": [
+            "img/109.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Smogogo": {
+        "Numéro": [
+            "110"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "120"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Poison "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/110.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rhinocorne": {
+        "Numéro": [
+            "111"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "85"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "30"
+        ],
+        "Défense Spéciale": [
+            "30"
+        ],
+        "Vitesse": [
+            "25"
+        ],
+        "Types": [
+            "Roche",
+            "Sol"
+        ],
+        "Evolution": [
+            "Rhinoféros"
+        ],
+        "Niveau": [
+            "42"
+        ],
+        "Img": [
+            "img/111.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Rhinoféros": {
+        "Numéro": [
+            "112"
+        ],
+        "PV": [
+            "105"
+        ],
+        "Attaque": [
+            "130"
+        ],
+        "Défense": [
+            "120"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Roche",
+            "Sol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/112.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Leveinard": {
+        "Numéro": [
+            "113"
+        ],
+        "PV": [
+            "250"
+        ],
+        "Attaque": [
+            "5"
+        ],
+        "Défense": [
+            "5"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "105"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/113.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Saquedeneu": {
+        "Numéro": [
+            "114"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "55"
+        ],
+        "Défense": [
+            "115"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "40"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Plante"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/114.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Kangourex": {
+        "Numéro": [
+            "115"
+        ],
+        "PV": [
+            "105"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/115.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Hypotrempe": {
+        "Numéro": [
+            "116"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "40"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "25"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Hypocéan"
+        ],
+        "Niveau": [
+            "32"
+        ],
+        "Img": [
+            "img/116.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Hypocéan": {
+        "Numéro": [
+            "117"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "85"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/117.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Poissiréne": {
+        "Numéro": [
+            "118"
+        ],
+        "PV": [
+            "45"
+        ],
+        "Attaque": [
+            "67"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "35"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "63"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Poissoroy"
+        ],
+        "Niveau": [
+            "33"
+        ],
+        "Img": [
+            "img/118.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Poissoroy": {
+        "Numéro": [
+            "119"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "92"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "68"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/119.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Stari": {
+        "Numéro": [
+            "120"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "85"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Staross"
+        ],
+        "Niveau": [
+            "36"
+        ],
+        "Img": [
+            "img/120.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Staross": {
+        "Numéro": [
+            "121"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "75"
+        ],
+        "Défense": [
+            "85"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "115"
+        ],
+        "Types": [
+            "Eau",
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/121.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "M. Mime": {
+        "Numéro": [
+            "122"
+        ],
+        "PV": [
+            "40"
+        ],
+        "Attaque": [
+            "45"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "120"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Psy",
+            "Fée"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/122.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Insécateur": {
+        "Numéro": [
+            "123"
+        ],
+        "PV": [
+            "70"
+        ],
+        "Attaque": [
+            "110"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "80"
+        ],
+        "Vitesse": [
+            "105"
+        ],
+        "Types": [
+            "Insecte ",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/123.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Lippoutou": {
+        "Numéro": [
+            "124"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "50"
+        ],
+        "Défense": [
+            "35"
+        ],
+        "Attaque Spéciale": [
+            "115"
+        ],
+        "Défense Spéciale": [
+            "95"
+        ],
+        "Vitesse": [
+            "95"
+        ],
+        "Types": [
+            "Glace",
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/124.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Elektek": {
+        "Numéro": [
+            "125"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "83"
+        ],
+        "Défense": [
+            "57"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "105"
+        ],
+        "Types": [
+            "Electrick"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/125.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Magmar": {
+        "Numéro": [
+            "126"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "95"
+        ],
+        "Défense": [
+            "57"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "93"
+        ],
+        "Types": [
+            "Feu "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/126.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Scarabrute": {
+        "Numéro": [
+            "127"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "125"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "85"
+        ],
+        "Types": [
+            "Insecte"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/127.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Tauros": {
+        "Numéro": [
+            "128"
+        ],
+        "PV": [
+            "75"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "40"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "110"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/128.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Magicarpe": {
+        "Numéro": [
+            "129"
+        ],
+        "PV": [
+            "20"
+        ],
+        "Attaque": [
+            "10"
+        ],
+        "Défense": [
+            "55"
+        ],
+        "Attaque Spéciale": [
+            "15"
+        ],
+        "Défense Spéciale": [
+            "20"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Léviator"
+        ],
+        "Niveau": [
+            "20"
+        ],
+        "Img": [
+            "img/129.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Léviator": {
+        "Numéro": [
+            "130"
+        ],
+        "PV": [
+            "95"
+        ],
+        "Attaque": [
+            "125"
+        ],
+        "Défense": [
+            "79"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "81"
+        ],
+        "Types": [
+            "Eau",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/130.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Lokhlass": {
+        "Numéro": [
+            "131"
+        ],
+        "PV": [
+            "130"
+        ],
+        "Attaque": [
+            "85"
+        ],
+        "Défense": [
+            "80"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "95"
+        ],
+        "Vitesse": [
+            "60"
+        ],
+        "Types": [
+            "Eau",
+            "Glace"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/131.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Métamorph": {
+        "Numéro": [
+            "132"
+        ],
+        "PV": [
+            "48"
+        ],
+        "Attaque": [
+            "48"
+        ],
+        "Défense": [
+            "48"
+        ],
+        "Attaque Spéciale": [
+            "48"
+        ],
+        "Défense Spéciale": [
+            "48"
+        ],
+        "Vitesse": [
+            "48"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [
+            "Métamorph"
+        ],
+        "Niveau": [],
+        "Img": [
+            "img/132.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Evoli": {
+        "Numéro": [
+            "133"
+        ],
+        "PV": [
+            "55"
+        ],
+        "Attaque": [
+            "55"
+        ],
+        "Défense": [
+            "50"
+        ],
+        "Attaque Spéciale": [
+            "45"
+        ],
+        "Défense Spéciale": [
+            "65"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [
+            "Aquali"
+        ],
+        "Niveau": [
+            "20"
+        ],
+        "Img": [
+            "img/133.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Aquali": {
+        "Numéro": [
+            "134"
+        ],
+        "PV": [
+            "130"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "110"
+        ],
+        "Défense Spéciale": [
+            "95"
+        ],
+        "Vitesse": [
+            "65"
+        ],
+        "Types": [
+            "Eau"
+        ],
+        "Evolution": [
+            "Voltali"
+        ],
+        "Niveau": [
+            "40"
+        ],
+        "Img": [
+            "img/134.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Voltali": {
+        "Numéro": [
+            "135"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "65"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "110"
+        ],
+        "Défense Spéciale": [
+            "95"
+        ],
+        "Vitesse": [
+            "130"
+        ],
+        "Types": [
+            "Electrick"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/135.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Pyroli": {
+        "Numéro": [
+            "136"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "130"
+        ],
+        "Défense": [
+            "60"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "110"
+        ],
+        "Vitesse": [
+            "65"
+        ],
+        "Types": [
+            "Feu"
+        ],
+        "Evolution": [],
+        "Niveau": [
+            "10"
+        ],
+        "Img": [
+            "img/136.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Porygon": {
+        "Numéro": [
+            "137"
+        ],
+        "PV": [
+            "65"
+        ],
+        "Attaque": [
+            "60"
+        ],
+        "Défense": [
+            "70"
+        ],
+        "Attaque Spéciale": [
+            "85"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "40"
+        ],
+        "Types": [
+            "Normal"
+        ],
+        "Evolution": [],
+        "Niveau": [
+            "10"
+        ],
+        "Img": [
+            "img/137.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Amonita": {
+        "Numéro": [
+            "138"
+        ],
+        "PV": [
+            "35"
+        ],
+        "Attaque": [
+            "40"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "90"
+        ],
+        "Défense Spéciale": [
+            "55"
+        ],
+        "Vitesse": [
+            "35"
+        ],
+        "Types": [
+            "Roche",
+            "Eau"
+        ],
+        "Evolution": [
+            "Amonistar"
+        ],
+        "Niveau": [
+            "40"
+        ],
+        "Img": [
+            "img/138.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Amonistar": {
+        "Numéro": [
+            "139"
+        ],
+        "PV": [
+            "70"
+        ],
+        "Attaque": [
+            "60"
+        ],
+        "Défense": [
+            "125"
+        ],
+        "Attaque Spéciale": [
+            "115"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Roche",
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/139.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Kabuto": {
+        "Numéro": [
+            "140"
+        ],
+        "PV": [
+            "30"
+        ],
+        "Attaque": [
+            "80"
+        ],
+        "Défense": [
+            "90"
+        ],
+        "Attaque Spéciale": [
+            "55"
+        ],
+        "Défense Spéciale": [
+            "45"
+        ],
+        "Vitesse": [
+            "55"
+        ],
+        "Types": [
+            "Roche",
+            "Eau"
+        ],
+        "Evolution": [
+            "Kabutops"
+        ],
+        "Niveau": [
+            "40"
+        ],
+        "Img": [
+            "img/140.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Kabutops": {
+        "Numéro": [
+            "141"
+        ],
+        "PV": [
+            "60"
+        ],
+        "Attaque": [
+            "115"
+        ],
+        "Défense": [
+            "105"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Roche",
+            "Eau"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/141.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ptéra": {
+        "Numéro": [
+            "142"
+        ],
+        "PV": [
+            "80"
+        ],
+        "Attaque": [
+            "105"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "60"
+        ],
+        "Défense Spéciale": [
+            "75"
+        ],
+        "Vitesse": [
+            "130"
+        ],
+        "Types": [
+            "Roche",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/142.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Ronflex": {
+        "Numéro": [
+            "143"
+        ],
+        "PV": [
+            "160"
+        ],
+        "Attaque": [
+            "110"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "65"
+        ],
+        "Défense Spéciale": [
+            "110"
+        ],
+        "Vitesse": [
+            "30"
+        ],
+        "Types": [
+            "Normal "
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/143.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Artikodin": {
+        "Numéro": [
+            "144"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "85"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "95"
+        ],
+        "Défense Spéciale": [
+            "125"
+        ],
+        "Vitesse": [
+            "85"
+        ],
+        "Types": [
+            "Glace",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/144.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Electhor": {
+        "Numéro": [
+            "145"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "90"
+        ],
+        "Défense": [
+            "85"
+        ],
+        "Attaque Spéciale": [
+            "125"
+        ],
+        "Défense Spéciale": [
+            "90"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Electrik",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/145.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Sulfura": {
+        "Numéro": [
+            "146"
+        ],
+        "PV": [
+            "90"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "90"
+        ],
+        "Attaque Spéciale": [
+            "125"
+        ],
+        "Défense Spéciale": [
+            "85"
+        ],
+        "Vitesse": [
+            "90"
+        ],
+        "Types": [
+            "Feu ",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/146.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Minidraco": {
+        "Numéro": [
+            "147"
+        ],
+        "PV": [
+            "41"
+        ],
+        "Attaque": [
+            "64"
+        ],
+        "Défense": [
+            "45"
+        ],
+        "Attaque Spéciale": [
+            "50"
+        ],
+        "Défense Spéciale": [
+            "50"
+        ],
+        "Vitesse": [
+            "50"
+        ],
+        "Types": [
+            "Dragon"
+        ],
+        "Evolution": [
+            "Draco"
+        ],
+        "Niveau": [
+            "30"
+        ],
+        "Img": [
+            "img/147.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Draco": {
+        "Numéro": [
+            "148"
+        ],
+        "PV": [
+            "61"
+        ],
+        "Attaque": [
+            "84"
+        ],
+        "Défense": [
+            "65"
+        ],
+        "Attaque Spéciale": [
+            "70"
+        ],
+        "Défense Spéciale": [
+            "70"
+        ],
+        "Vitesse": [
+            "70"
+        ],
+        "Types": [
+            "Dragon"
+        ],
+        "Evolution": [
+            "Dracolosse"
+        ],
+        "Niveau": [
+            "55"
+        ],
+        "Img": [
+            "img/148.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Dracolosse": {
+        "Numéro": [
+            "149"
+        ],
+        "PV": [
+            "91"
+        ],
+        "Attaque": [
+            "134"
+        ],
+        "Défense": [
+            "95"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "80"
+        ],
+        "Types": [
+            "Dragon",
+            "Vol"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/149.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mewtwo": {
+        "Numéro": [
+            "150"
+        ],
+        "PV": [
+            "106"
+        ],
+        "Attaque": [
+            "110"
+        ],
+        "Défense": [
+            "90"
+        ],
+        "Attaque Spéciale": [
+            "154"
+        ],
+        "Défense Spéciale": [
+            "90"
+        ],
+        "Vitesse": [
+            "130"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/150.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    },
+    "Mew": {
+        "Numéro": [
+            "151"
+        ],
+        "PV": [
+            "100"
+        ],
+        "Attaque": [
+            "100"
+        ],
+        "Défense": [
+            "100"
+        ],
+        "Attaque Spéciale": [
+            "100"
+        ],
+        "Défense Spéciale": [
+            "100"
+        ],
+        "Vitesse": [
+            "100"
+        ],
+        "Types": [
+            "Psy"
+        ],
+        "Evolution": [],
+        "Niveau": [],
+        "Img": [
+            "img/151.png"
+        ],
+        "Theme": [
+            "#FFF140"
+        ]
+    }
+}

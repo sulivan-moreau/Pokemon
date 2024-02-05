@@ -1,44 +1,50 @@
 import tkinter as tk
+from PIL import Image, ImageTk
 import json
 
-# Chargement des données Pokémon à partir du fichier JSON
+root = tk.Tk()
+root.title("Pokédex")
+
 try:
-    with open('/Users/sulivanmoreau/Pokemon/Data/Pokedex_max.json', 'r', encoding='utf-8') as file:
+    with open('/Users/sulivanmoreau/Pokemon/Data/Pokeedex.json', 'r', encoding='utf-8') as file:
         pokemon_data = json.load(file)
 except Exception as e:
     print(f"Erreur lors du chargement du fichier JSON : {e}")
     exit(1)
 
-# Fonction de recherche de Pokémon
 def search_pokemon():
-    query = search_entry.get().strip()
-    # Recherche par nom ou numéro
-    for name, data in pokemon_data.items():
-        if query.lower() == name.lower() or query == str(data.get('Numero', '')):
-            # Formatage des données pour l'affichage
-            info = f"Nom: {name}\n"
-            info += f"Types: {', '.join(data['Types'])}\n"
-            info += f"Statut: {', '.join([f'{k}: {v}' for k, v in data['Statut'].items()])}\n"
-            info += f"Evolution: {', '.join(data['Evolution']) if data['Evolution'] else 'Aucune'}\n"
-            result_label.config(text=info)
-            return
-    result_label.config(text="Pokémon non trouvé")
+    query = search_entry.get().strip().capitalize()
+    data = pokemon_data.get(query)
+    if data:
+        info = f"Nom: {query}\nNuméro: {', '.join(data['Numéro'])}\nPV: {', '.join(data['PV'])}\n"
+        info += f"Attaque: {', '.join(data['Attaque'])}\nDéfense: {', '.join(data['Défense'])}\n"
+        info += f"Attaque Spéciale: {', '.join(data['Attaque Spéciale'])}\nDéfense Spéciale: {', '.join(data['Défense Spéciale'])}\n"
+        info += f"Vitesse: {', '.join(data['Vitesse'])}\nTypes: {', '.join(data['Types'])}\n"
+        if data['Evolution']:
+            info += f"Evolution: {', '.join(data['Evolution'])}\n"
+        if data['Niveau']:
+            info += f"Niveau d'évolution: {', '.join(data['Niveau'])}\n"
+        chemin_dossier_images = '/Users/sulivanmoreau/Pokemon/img'
+        chemin_image = f"{chemin_dossier_images}/{data['Numéro'][0].zfill(3)}.png"
+        image = Image.open(chemin_image)
+        photo = ImageTk.PhotoImage(image)
+        image_label.config(image=photo)
+        image_label.image = photo
+        result_label.config(text=info)
+    else:
+        result_label.config(text="Pokémon non trouvé")
+        image_label.config(image='')
 
-# Création de la fenêtre principale
-root = tk.Tk()
-root.title("Pokédex")
+image_label = tk.Label(root)
+image_label.pack()
 
-# Champ de saisie pour la recherche
 search_entry = tk.Entry(root)
 search_entry.pack()
 
-# Bouton de recherche
 search_button = tk.Button(root, text="Rechercher", command=search_pokemon)
 search_button.pack()
 
-# Étiquette pour afficher le résultat
 result_label = tk.Label(root, text="", justify=tk.LEFT)
 result_label.pack()
 
-# Lancement de l'interface graphique
 root.mainloop()

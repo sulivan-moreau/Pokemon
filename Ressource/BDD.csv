@@ -1,8 +1,8 @@
-Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. Def;Speed
+Num√©ro;Nom;Types1;Types2;Evolution;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. Def;Speed
 1;Bulbizarre;Plante;Poison;Herbizarre;16;45;49;49;65;65;45
 2;Herbizarre;Plante;Poison;Florizarre;32;60;62;63;80;80;60
 3;Florizarre;Plante;Poison;;;80;82;83;100;100;80
-4;Salamèche;Feu ;;Reptincel;16;39;52;43;60;50;65
+4;Salam√®che;Feu ;;Reptincel;16;39;52;43;60;50;65
 5;Reptincel;Feu ;;Dracaufeu;36;58;64;58;80;65;80
 6;Dracaufeu;Feu ;Vol;;;78;84;78;109;85;100
 7;Carapuce;Eau;;Carabaffe;16;44;48;65;50;64;43
@@ -33,12 +33,12 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 32;Nidoran_;Poison;;Nidorino;16;46;57;40;40;40;50
 33;Nidorino;Poison;;Nidoking;32;61;72;57;55;55;65
 34;Nidoking;Poison;Sol;;;81;102;77;85;75;85
-35;Mélofée;Fée;;Mélodelfe;22;70;45;48;60;65;35
-36;Mélodelfe;Fée;;;;95;70;73;95;90;60
+35;M√©lof√©e;F√©e;;M√©lodelfe;22;70;45;48;60;65;35
+36;M√©lodelfe;F√©e;;;;95;70;73;95;90;60
 37;Goupix;Feu ;;Feunard;22;38;41;40;50;65;65
 38;Feunard;Feu ;;;;73;76;75;81;100;100
-39;Rondoudou;Normal;Fée;Grodoudou;22;115;45;20;45;25;20
-40;Grodoudou;Normal;Fée;;;140;70;45;85;50;45
+39;Rondoudou;Normal;F√©e;Grodoudou;22;115;45;20;45;25;20
+40;Grodoudou;Normal;F√©e;;;140;70;45;85;50;45
 41;Nosferapti;Poison ;Vol;Nosferalto;22;40;45;35;30;40;55
 42;Nosferalto;Poison ;Vol;;;75;80;70;65;75;90
 43;Mystherbe;Plante;Poison ;Ortide;21;45;50;55;75;65;30
@@ -46,20 +46,20 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 45;Rafflesia;Plante;Poison;;;75;80;85;110;90;50
 46;Paras;Insecte ;Plante;Parasect;24;35;70;55;45;55;25
 47;Parasect;Insecte;Plante;;;60;95;80;60;80;30
-48;Mimitoss;Insecte;Poison;Aéromite;31;60;55;50;40;55;45
-49;Aéromite;Insecte;Poison;;;70;65;60;90;75;90
+48;Mimitoss;Insecte;Poison;A√©romite;31;60;55;50;40;55;45
+49;A√©romite;Insecte;Poison;;;70;65;60;90;75;90
 50;Taupiqueur;Sol;;Triopikeur;26;10;55;25;35;45;95
 51;Triopikeur;Sol;;;;35;100;50;50;70;120
 52;Miaouss;Normal ;;Persian;28;40;45;35;40;40;90
 53;Persian;Normal ;;;;65;70;60;65;65;115
 54;Psykokwak;Eau;;Akwakwak;33;50;52;48;65;50;55
 55;Akwakwak;Eau;;;;80;82;78;95;80;85
-56;Férosinge;Combat;;Colossinge;28;40;80;35;35;45;70
+56;F√©rosinge;Combat;;Colossinge;28;40;80;35;35;45;70
 57;Colossinge;Combat;;;;65;105;60;60;70;95
 58;Caninos;Feu ;;Arcanin;22;55;70;45;70;50;60
 59;Arcanin;Feu ;;;;90;110;80;100;80;95
-60;Ptitard;Eau;;Têtarte;25;40;50;40;40;40;90
-61;Têtarte;Eau;;Tartard;36;65;65;65;50;50;90
+60;Ptitard;Eau;;T√©tarte;25;40;50;40;40;40;90
+61;T√©tarte;Eau;;Tartard;36;65;65;65;50;50;90
 62;Tartard;Eau;Combat;;;90;95;95;70;90;70
 63;Abra;Psy;;Kadabra;16;25;20;15;105;55;90
 64;Kadabra;Psy;;Alakazam;36;40;35;30;120;70;105
@@ -67,7 +67,7 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 66;Machoc;Combat;;Machopeur;28;70;80;50;35;35;35
 67;Machopeur;Combat;;Mackogneur;36;80;100;70;50;60;45
 68;Mackogneur;Combat;;;;90;130;80;65;85;55
-69;Chétiflor;Plante;Poison;Boustiflor;21;50;75;35;70;30;40
+69;Ch√©tiflor;Plante;Poison;Boustiflor;21;50;75;35;70;30;40
 70;Boustiflor;Plante;Poison;Empiflor;36;65;90;50;85;45;55
 71;Empiflor;Plante;Poison;;;80;105;65;100;70;70
 72;Tentacool;Eau;Poison;Tentacruel;30;40;40;35;50;100;70
@@ -79,8 +79,8 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 78;Galopa;Feu ;;;;65;100;70;80;80;105
 79;Ramoloss;Eau;Psy;Flagadoss;37;90;65;65;40;40;15
 80;Flagadoss;Eau;Psy;;;95;75;110;100;80;30
-;Magnéti;Electrick;Acier;Magnéton;30;25;35;70;95;55;45
-82;Magnéton;Electrick;Acier;;;50;60;95;120;70;70
+;Magn√©ti;Electrick;Acier;Magn√©ton;30;25;35;70;95;55;45
+82;Magn√©ton;Electrick;Acier;;;50;60;95;120;70;70
 83;Canarticho;Normal;Vol;;;52;90;55;58;62;60
 84;Doduo;Normal;Vol;Dodrio;31;35;85;45;35;35;75
 85;Dodrio;Normal;Vol;;;60;110;70;60;60;110
@@ -98,8 +98,8 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 97;Hypnomade;Psy;;;;85;73;70;73;115;67
 98;Krabby;Eau;;Krabboss;28;30;105;90;25;25;50
 99;Krabboss;Eau;;;;55;130;115;50;50;75
-100;Voltorbe;Electrick;;Électrode;30;40;30;50;55;55;100
-101;Électrode;Electrick;;;;60;50;70;80;80;150
+100;Voltorbe;Electrick;;Electrode;30;40;30;50;55;55;100
+101;Electrode;Electrick;;;;60;50;70;80;80;150
 102;Noeunoeuf;Plante;Psy;Noadkoko;36;60;40;80;60;45;40
 103;Noadkoko;Plante;Psy;;;95;95;85;125;75;55
 104;Osselait;Sol;;Ossatueur;28;50;50;95;40;50;35
@@ -109,29 +109,29 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 108;Excelangue;Normal;;;;90;55;75;60;75;30
 109;Smogo;Poison;;Smogogo;35;40;65;95;60;45;35
 110;Smogogo;Poison ;;;;65;90;120;85;70;60
-111;Rhinocorne;Roche;Sol;Rhinoféros;42;80;85;95;30;30;25
-112;Rhinoféros;Roche;Sol;;;105;130;120;45;45;40
+111;Rhinocorne;Roche;Sol;Rhinof√©ros;42;80;85;95;30;30;25
+112;Rhinof√©ros;Roche;Sol;;;105;130;120;45;45;40
 113;Leveinard;Normal;;;;250;5;5;35;105;50
 114;Saquedeneu;Plante;;;;65;55;115;100;40;60
 115;Kangourex;Normal;;;;105;95;80;40;80;90
-116;Hypotrempe;Eau;;Hypocéan;32;30;40;70;70;25;60
-117;Hypocéan;Eau;;;;55;65;95;95;45;85
-118;Poissirène;Eau;;Poissoroy;33;45;67;60;35;50;63
+116;Hypotrempe;Eau;;Hypoc√©an;32;30;40;70;70;25;60
+117;Hypoc√©an;Eau;;;;55;65;95;95;45;85
+118;Poissir√©ne;Eau;;Poissoroy;33;45;67;60;35;50;63
 119;Poissoroy;Eau;;;;80;92;65;65;80;68
 120;Stari;Eau;;Staross;36;30;45;55;70;55;85
 121;Staross;Eau;Psy;;;60;75;85;100;85;115
-122;M. Mime;Psy;Fée;;;40;45;65;100;120;90
-123;Insécateur;Insecte ;Vol;;;70;110;80;55;80;105
+122;M. Mime;Psy;F√©e;;;40;45;65;100;120;90
+123;Ins√©cateur;Insecte ;Vol;;;70;110;80;55;80;105
 124;Lippoutou;Glace;Psy;;;65;50;35;115;95;95
-125;Élektek;Electrick;;;;65;83;57;95;85;105
+125;Elektek;Electrick;;;;65;83;57;95;85;105
 126;Magmar;Feu ;;;;65;95;57;100;85;93
 127;Scarabrute;Insecte;;;;65;125;100;55;70;85
 128;Tauros;Normal;;;;75;100;95;40;70;110
-129;Magicarpe;Eau;;Léviator;20;20;10;55;15;20;80
-130;Léviator;Eau;Vol;;;95;125;79;60;100;81
+129;Magicarpe;Eau;;L√©viator;20;20;10;55;15;20;80
+130;L√©viator;Eau;Vol;;;95;125;79;60;100;81
 131;Lokhlass;Eau;Glace;;;130;85;80;85;95;60
-132;Métamorph;Normal;;Métamorph;;48;48;48;48;48;48
-133;Évoli;Normal;;Aquali;20;55;55;50;45;65;55
+132;M√©tamorph;Normal;;M√©tamorph;;48;48;48;48;48;48
+133;Evoli;Normal;;Aquali;20;55;55;50;45;65;55
 134;Aquali;Eau;;Voltali;40;130;65;60;110;95;65
 135;Voltali;Electrick;;;;65;65;60;110;95;130
 136;Pyroli;Feu;;;10;65;130;60;95;110;65
@@ -140,10 +140,10 @@ Numéro;Nom;Types 1 ;Types 2 ;Evolution ;Niveau;Pv;Attaque;Defense;Sp. Atk;Sp. De
 139;Amonistar;Roche;Eau;;;70;60;125;115;70;55
 140;Kabuto;Roche;Eau;Kabutops;40;30;80;90;55;45;55
 141;Kabutops;Roche;Eau;;;60;115;105;65;70;80
-142;Ptéra;Roche;Vol;;;80;105;65;60;75;130
+142;Pt√©ra;Roche;Vol;;;80;105;65;60;75;130
 143;Ronflex;Normal ;;;;160;110;65;65;110;30
 144;Artikodin;Glace;Vol;;;90;85;100;95;125;85
-145;Électhor;Electrik;Vol;;;90;90;85;125;90;100
+145;Electhor;Electrik;Vol;;;90;90;85;125;90;100
 146;Sulfura;Feu ;Vol;;;90;100;90;125;85;90
 147;Minidraco;Dragon;;Draco;30;41;64;45;50;50;50
 148;Draco;Dragon;;Dracolosse;55;61;84;65;70;70;70
