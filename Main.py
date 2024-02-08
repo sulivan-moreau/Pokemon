@@ -31,26 +31,12 @@ def main():
     menu = MenuPokemon(largeur, hauteur)
 
     while True:
-        """        position_souris = pygame.mouse.get_pos()
-        print("Position de la souris : x =", position_souris[0], ", y =", position_souris[1])"""
-        
+       
 
-        menu.afficher(fenetre, fond, titre_image)
+        menu.afficher(fenetre, fond, titre_image)     
         bouton_clic = menu.gerer_evenements(pygame.event.poll())
 
-        """ if bouton_clic:
-            if bouton_clic.texte_surface.get_text("Nouvelle partie !") == "Nouvelle Partie":
-                print("Nouvelle partie !")
-                # Remettre le Pokédex à zéro ici
-            elif bouton_clic.texte_surface.get_text() == "Continuer":
-                print("Continuer la partie")
-                # Ajoutez le code pour charger la sauvegarde existante
-            elif bouton_clic.texte_surface.get_text() == "Pokédex":
-                print("Pokédex !")
-                # Ajoutez le code pour ouvrir le Pokédex
-            elif bouton_clic.texte_surface.get_text() == "Quitter":
-                pygame.quit()
-                quit()"""
+
 
         for event in pygame.event.get():
     # Si l'utilisateur ferme la fenêtre, quitte le programme
@@ -69,15 +55,15 @@ def main():
                         print("Clic sur le bouton 'Retour au menu'")
 
                     # Si le clic est dans la zone du Pokémon 1
-                    if 0 <= event.pos[0] <= 1000 and 0 <= event.pos[1] <= 1000:
+                    if 199 <= event.pos[0] <= 600 and 324<= event.pos[1] <= 374 :
                         print("Clic sur le Pokémon 1")
 
                     # Si le clic est dans la zone du Pokémon 2
-                    if 526 <= event.pos[0] <= 573 and 197 <= event.pos[1] <= 236:
+                    if 200 <= event.pos[0] <= 600 and  400<= event.pos[1] <= 450:
                         print("Clic sur le Pokémon 2")
 
                     # Si le clic est dans la zone du Pokémon 3
-                    if 673 <= event.pos[0] <= 714 and 179 <= event.pos[1] <= 217:
+                    if 200 <= event.pos[0] <= 600 and 475 <= event.pos[1] <= 525:
                         print("Clic sur le Pokémon 3")
 
 if __name__ == "__main__":
