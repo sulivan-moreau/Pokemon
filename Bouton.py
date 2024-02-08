@@ -1,5 +1,6 @@
 import pygame
 
+
 class Bouton:
     def __init__(self, texte, position, couleur):
         self.rect = pygame.Rect(position[0], position[1], 400, 50)
@@ -7,6 +8,7 @@ class Bouton:
         self.texte_rect = self.texte_surface.get_rect(center=(position[0] + 200, position[1] + 25))
         self.couleur = couleur
         self.alpha = 255  # Opacité du bouton
+        
 
     def afficher(self, fenetre):
         surface_bouton = pygame.Surface((400, 50))

@@ -11,6 +11,7 @@ class MenuPokemon:
     Bouton("Pokédex", (200, 400), (0, 128, 0)),  # Vert foncé
     Bouton("Quitter", (200, 475), (0, 128, 0)) 
         ]
+        
 
     def afficher(self, fenetre, fond, titre_image):
         fenetre.blit(fond, (0, 0))
