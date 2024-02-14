@@ -3,7 +3,9 @@ import sys
 from PIL import Image
 from pokemon import Pokemon
 from Starter import *
-from Capacité import Capacite
+from Capacité import *
+from Capacite_stats import CapaciteStatistique
+pygame.mixer.init()
 
 
 def redimensionner_image(image_path, nouvelle_taille):
@@ -24,28 +26,39 @@ class GameManager:
         self.adversaire = None
         self.pokemon_selectionne = 0
 
+    def jouer_musique_choix(self):
+        pygame.mixer.music.load("Code2/onlymp3.to - Pokémon Donjon Mystère Soundtrack Grotte Littorale-vD0DsgkOTNg-192k-1706198380.mp3")
+        pygame.mixer.music.play(-1)
+
+    def arreter_musique_choix(self):
+        pygame.mixer.music.stop()
+
     def choisir_pokemon(self):
         pokemons = [
             Salamèche("Salamèche", image_feu, [
-                Capacite("Rugissement", 0, 100, 40, "Normal", "Statut", {'statistique': 'Attaque'}),
                 Capacite("Charge", 40, 100, 35, "Normal", "Physique"),
                 Capacite("Flammèche", 40, 100, 25, "Feu", "Spéciale"),
+            ], [
+                CapaciteStatistique("Rugissement", 0, 100, 40, "Normal", "Statut"),
             ]),
             Carapuce("Carapuce", image_eau, [
-                Capacite("Rugissement", 0, 100, 40, "Normal", "Statut", {'statistique': 'Attaque'}),
                 Capacite("Charge", 40, 100, 35, "Normal", "Physique"),
                 Capacite("Pistolet à O", 40, 100, 25, "Eau", "Spéciale"),
+            ], [
+                CapaciteStatistique("Rugissement", 0, 100, 40, "Normal", "Statut"),
             ]),
             Bulbizarre("Bulbizarre", image_plante, [
-                Capacite("Mimi Queue", 0, 100, 40, "Normal", "Statut", {'statistique': 'Attaque'}),
                 Capacite("Charge", 40, 100, 35, "Normal", "Physique"),
                 Capacite("Fouet Lianes", 40, 100, 25, "Plante", "Spéciale"),
-            ])
+            ], [
+                CapaciteStatistique("Mimi-Queue", 0, 100, 40, "Normal", "Statut"),
+            ]),
         ]
 
         choix = 0  # Indice du Pokémon sélectionné
         x_position = 50  # Position x de l'affichage des Pokémon
         selection_effectuee = False
+        self.jouer_musique_choix()
 
         while not selection_effectuee:
             fenetre.fill(NOIR)
@@ -92,4 +105,7 @@ class GameManager:
 
             pygame.display.flip()
 
+        self.arreter_musique_choix()
+
         return pokemons[self.pokemon_selectionne]
+    

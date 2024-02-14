@@ -7,13 +7,16 @@ from pokemon_type import types_pokemon
 
 
 class Pokemon:
-    def __init__(self, nom, type_pokemon, image, capacites,):
+    def __init__(self, nom, type_pokemon, image, capacites, capacites_stats):
         self.nom = nom
         self.type = type_pokemon
         self.image = image
-        self.niveau = 5  # Ajoutez la statistique de niveau par défaut
-        self.statistiques = Statistiques()  # Assurez-vous que la classe Statistiques a une statistique de niveau
-        self.capacites = capacites  # Liste de capacités prédéfini
+        self.capacites = capacites  # Liste de Capacite
+        self.capacites.extend(capacites_stats)  # Ajouter les capacités statistiques à la liste
+        self.niveau = 5
+        self.statistiques = Statistiques()
+
+
 
     def afficher_info(self):
         return f"Nom: {self.nom}, Type: {self.type}"
@@ -28,11 +31,11 @@ class Pokemon:
     def afficher_details(self, x, y):
         font = pygame.font.Font(None, 36)
         attributs = [
-            ("Attaque", self.statistiques.attaque),
-            ("Défense", self.statistiques.defense),
-            ("Attaque Spéciale", self.statistiques.attaque_speciale),
-            ("Défense Spéciale", self.statistiques.defense_speciale),
-            ("Vitesse", self.statistiques.vitesse),
+            ("attaque", self.statistiques.attaque),
+            ("défense", self.statistiques.defense),
+            ("attaque spéciale", self.statistiques.attaque_speciale),
+            ("défense spéciale", self.statistiques.defense_speciale),
+            ("vitesse", self.statistiques.vitesse),
         ]
 
         pygame.draw.rect(fenetre, NOIR, (x, y, 200, 150))
@@ -64,11 +67,10 @@ class Pokemon:
         stat_a_modifier = effet_statistique['statistique']
         pourcentage_modification = effet_statistique['pourcentage']
 
-        if stat_a_modifier == 'Attaque':
+        if stat_a_modifier == 'attaque':
             self.statistiques.attaque -= int(self.statistiques.attaque * (pourcentage_modification / 100))
-        elif stat_a_modifier == 'Defense':
+        elif stat_a_modifier == 'defense':
             self.statistiques.defense -= int(self.statistiques.defense * (pourcentage_modification / 100))
-        # Ajoutez d'autres cas selon les statistiques que vous souhaitez modifier
             
     def infliger_degats(self, degats):
         # Appliquer les dégâts au Pokémon

@@ -1,7 +1,19 @@
-import random 
+import random
+import pygame
 from pokemon_type import types_pokemon
+from Stats import Statistiques
 
 class Capacite:
+    coup_critique = 1
+    r = 1.0
+    stab = 1.0
+    type1_multiplier = 1.0
+    type2_multiplier = 1.0
+
+    def get_nom(self):
+        return self.nom
+
+
     def __init__(self, nom, puissance, precision, pp, type_capacite, classe_capacite, effet_statistique=None, niveau_attaquant=5):
         self.nom = nom
         self.puissance = puissance
@@ -10,22 +22,16 @@ class Capacite:
         self.type_capacite = type_capacite.lower()
         self.classe_capacite = classe_capacite
         self.effet_statistique = effet_statistique
-
-        # Générer un pourcentage aléatoire s'il n'est pas fourni
-        if effet_statistique and 'pourcentage' not in effet_statistique:
-            self.effet_statistique['pourcentage'] = random.randint(5, 15)
-
-        # Niveau du Pokémon attaquant
         self.niveau_attaquant = niveau_attaquant
 
-    def evaluer_efficacite(self, adversaire):
+    def _evaluer_efficacite(self, adversaire):
         type_attaque = self.type_capacite
-        type_adversaire = adversaire.type[0].lower()
+        type_adversaire = adversaire.type.lower()
 
         if len(adversaire.type) == 2:
-            type_adversaire = adversaire.type[1].lower()
+            type_adversaire = adversaire.type.lower()
 
-        effectiveness = types_pokemon[type_attaque].relations.get(type_adversaire, 1.0)
+        effectiveness = types_pokemon[type_attaque].relations.get(type_adversaire)
 
         if effectiveness == 2:
             print(f"L'attaque est super efficace !")
@@ -36,20 +42,12 @@ class Capacite:
         elif effectiveness == 0:
             print(f"L'attaque n'a aucun effet.")
 
-            # Phrase sur le pourcentage de baisse de statistique
-            if self.effet_statistique:
-                pourcentage_baisse = self.effet_statistique.get('pourcentage', 0)
-                print(f"L'attaque de {adversaire.nom} baisse de {pourcentage_baisse}%.")
-
-    def utiliser(self, attaquant, adversaire):
-
-    # Statistiques des attaquants et défenseurs
+    def calculer_degats(self, attaquant, adversaire):
         att_stat = attaquant.statistiques.attaque
         att_speciale_stat = attaquant.statistiques.attaque_speciale
         def_stat = adversaire.statistiques.defense
         def_speciale_stat = adversaire.statistiques.defense_speciale
 
-        # Choix de la statistique d'attaque en fonction de la classe de la capacité
         if self.classe_capacite == "Physique":
             attaque_utilisee = att_stat
             defense_utilisee = def_stat
@@ -57,110 +55,125 @@ class Capacite:
             attaque_utilisee = att_speciale_stat
             defense_utilisee = def_speciale_stat
 
-        # Calcul des dégâts de base
-        degats = int(
-            ((2 * attaquant.statistiques.niveau / 5 + 2) *
-            self.puissance * (attaque_utilisee / defense_utilisee)) / 50 + 2
-        )
 
-    # Prendre en compte l'efficacité du type
-        type_attaque = self.type_capacite.lower()
-        type_defenseur = adversaire.type.lower()
+        coup_critique = 2 if random.randint(1, 100) <= 35 else 1
 
-        # Vérifier si le type d'attaque existe dans le dictionnaire
-        if type_attaque in types_pokemon:
-            # Récupérer l'efficacité du type
-            efficacite = types_pokemon[type_attaque].relations.get(type_defenseur, 1.0)
-        else:
-            # Si le type d'attaque n'est pas trouvé, considérer l'efficacité comme 1 (neutre)
-            efficacite = 1.0
-
-        degats *= efficacite
-
-            # Prendre en compte l'efficacité du type
-        type_attaque = self.type_capacite.lower()
-        type_adversaire = adversaire.type.lower()
-        efficacite = types_pokemon[type_attaque.lower()].relations[type_defenseur.lower()]
-
-        degats *= efficacite
-        
-        # Détermination si l'attaque est physique ou spéciale
-        if self.classe_capacite == "Physique":
-            att_attaquant = attaquant.statistiques.attaque
-            def_adversaire = adversaire.statistiques.defense
-        if self.classe_capacite == "Speciale":
-            att_attaquant = attaquant.statistiques.attaque_speciale
-            def_adversaire = adversaire.statistiques.defense_speciale
-
-        if self.nom == "Rugissement":
-            # Altération des statistiques de l'adversaire
-            adversaire.statistiques.baisser_statistiques_aleatoires()
-            return 0  # Cette capacité n'inflige pas de dégâts
-
-        elif self.nom == "Mimi Queue":
-            # Altération des statistiques de l'adversaire
-            adversaire.statistiques.baisser_statistiques_aleatoires()
-            return 0  # Cette capacité n'inflige pas de dégâts
-
-        # Calcul des dégâts en fonction des statistiques, puissance, efficacité du type, etc.
-        degats = self.calculer_degats(attaquant, adversaire)
-
-        # Appliquer les dégâts au Pokémon défenseur
-        adversaire.infliger_degats(degats)
-            
-
-        # Coup critique
-        coup_critique = 2 if random.randint(1, 100) <= 10 else 1  # 10% de chance de coup critique
-
-        # Calcul du modificateur aléatoire R
-        r = random.choice([i for i in range(85, 100)] * 2 + [100]) / 255.0
+        self.r = random.choice([i for i in range(85, 100)] * 2 + [100]) / 255.0
 
         # STAB
-        stab = 2 if self.type_capacite in attaquant.type else 1
+        self.stab = 1.5 if self.type_capacite in attaquant.type else 1
 
-        # Type de l'attaque par rapport aux types du défenseur
-        type1_multiplier = types_pokemon[self.type_capacite.lower()].relations.get(adversaire.type[0].lower(), 1.0)
-        type2_multiplier = 1.0
+        type_attaque = self.type_capacite.lower()
+        type_adversaire = adversaire.type.lower()
 
+        self.type2_multiplier = 1.0
         if len(adversaire.type) == 2:
-            type2_multiplier = types_pokemon[self.type_capacite.lower()].relations.get(adversaire.type[1].lower(), 1.0)
+            type_adversaire_2 = adversaire.type.lower()
+            self.type2_multiplier = types_pokemon[type_attaque].relations.get(type_adversaire_2)
+
+        self.type1_multiplier = types_pokemon[type_attaque].relations.get(type_adversaire)
 
 
-        # Calcul des dégâts selon la formule
+        if coup_critique > 1:
+            print(f"Coup Critique !")  # Affichage du message pour un coup critique
+        
+
+
+        # Calcul des dégâts selon la formule avec prise en compte des types
         degats = int(
             (
                 (
                     (
                         (
                             (
-                                (attaquant.niveau * 2 / 5) + 2
-                            ) * self.puissance * att_attaquant / 50
-                        ) / def_adversaire
-                    ) * coup_critique * r / 100
-                ) + 2
-            ) * stab * type1_multiplier * type2_multiplier
+                                (
+                                    (
+                                        (attaquant.niveau * 2 / 5) + 2
+                                    ) * self.puissance * attaque_utilisee / 50
+                                ) / defense_utilisee
+                            ) * coup_critique * self.r / 100
+                        ) + 2 
+                    ) * self.stab * self.type1_multiplier * self.type2_multiplier
+                )
+            )
         )
 
+        print(attaquant.niveau)
+        print(self.puissance)
+        print(attaque_utilisee)
+        print(defense_utilisee)
+        print(def_stat)
+        print(def_speciale_stat)
+        print(self.stab)
+        print(coup_critique)
+        print (self.r)
+        print(self.type1_multiplier)
+        print (self.type2_multiplier)
+
         # Dégâts minimum de 1 si le défenseur n'est pas immunisé
-        degats = max(degats, 1)
+        return max(degats, 1)
 
-        # Appliquer les dégâts
-        adversaire.statistiques.points_de_vie -= degats
+    def utiliser(self, attaquant, adversaire):
+        if self.classe_capacite == "Statut" and self.effet_statistique is not None:
+            # Appliquer l'effet statistique
+            degats, message = self.effet_statistique.utiliser(attaquant, adversaire)
+        else:
+            # Calcul des dégâts
+            degats = self.calculer_degats(attaquant, adversaire)
 
-        print(f"{attaquant.nom} utilise {self.nom}.")
-        print(f"{adversaire.nom} a perdu {degats} PV.")
+            # Choix de la statistique d'attaque en fonction de la classe de la capacité
+            if self.classe_capacite == "Physique":
+                attaque_utilisee = attaquant.statistiques.attaque
+                defense_utilisee = adversaire.statistiques.defense
 
-        self.evaluer_efficacite(adversaire)
+            if self.classe_capacite == "Speciale":
+                attaque_utilisee = attaquant.statistiques.attaque_speciale
+                defense_utilisee = adversaire.statistiques.defense_speciale
 
-        return degats, self.effet_statistique
-    
+            coup_critique = 2 if random.randint(1, 100) <= 35 else 1  # Chance de 15% pour un coup critique
 
-    
+            self.r = random.choice([i for i in range(85, 100)] * 2 + [100]) / 255.0
 
-# Exemple d'instanciation d'une capacité
+            # STAB
+            self.stab = 1.5 if self.type_capacite in attaquant.type else 1
+
+            # Type de l'attaque par rapport aux types du défenseur
+            type_attaque = self.type_capacite.lower()
+            type_adversaire = adversaire.type.lower()
+
+            self.type2_multiplier = 1.0
+            if len(adversaire.type) == 2:
+                type_adversaire_2 = adversaire.type.lower()
+                self.type2_multiplier = types_pokemon[type_attaque].relations.get(type_adversaire_2)
+
+            self.type1_multiplier = types_pokemon[type_attaque].relations.get(type_adversaire)
+
+            # Dégâts minimum de 1 si le défenseur n'est pas immunisé
+            degats = max(degats, 1)
+
+            adversaire.infliger_degats(degats)
+
+            # Afficher le message approprié en fonction du type de capacité
+            message = f"{attaquant.nom} utilise {self.nom} et inflige {degats} dégâts."
+
+            if coup_critique > 1:
+                message_coup_critique = "Coup Critique !"  # Affichage du message pour un coup critique
+
+            if degats == 0:
+                print(f"{attaquant.nom} utilise {self.nom} et {message}.")
+            else:
+                print(f"{attaquant.nom} utilise {self.nom} et inflige {degats} dégâts.")
+
+            # Ajout d'une attente pour limiter la fréquence d'actualisation
+            pygame.time.Clock().tick(5)
+
+            self._evaluer_efficacite(adversaire)
+
+            return degats
+
+
+    # Exemple d'instanciation d'une capacité
 Charge = Capacite("Charge", 40, 100, 35, "Normal", "Physique")
-Rugissement = Capacite("Rugissement", 0, 100, 40, "Normal", "Statut", {'statistique': 'Attaque'})
-Mimi_Queue = Capacite("Mimi-Queue", 0, 100, 30, "Normal", "Statut", {'statistique': 'Defense'})
-Flammèche = Capacite("Flammèche", 40, 100, 25, "Feu", "Spéciale")
-Pistolet_a_O = Capacite("Pistolet à O", 40, 100, 25, "Eau", "Spéciale")
-Fouet_Lianes = Capacite("Fouet Lianes", 40, 100, 25, "Plante", "Spéciale")
+Flammeche = Capacite("Flammèche", 40, 100, 25, "Feu", "Speciale")
+Pistolet_a_O = Capacite("Pistolet à O", 40, 100, 25, "Eau", "Speciale")
+Fouet_Lianes = Capacite("Fouet Lianes", 40, 100, 25, "Plante", "Speciale")
